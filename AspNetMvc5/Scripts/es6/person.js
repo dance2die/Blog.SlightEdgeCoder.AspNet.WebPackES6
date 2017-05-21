@@ -5,6 +5,6 @@
 	}
 
 	speak() {
-		console.log(`Hi I'm ${this.name} and ${this.age} years old~~~`);
+		console.log(`Hi I'm ${this.name} and ${this.age} years old and I am awesome`);
 	}
 }
