@@ -14,6 +14,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication", "src\WebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc5", "AspNetMvc5\AspNetMvc5.csproj", "{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDemo", "BlogDemo\BlogDemo.csproj", "{7D2715D7-26CA-4A92-9DEF-29F835C94E89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2715D7-26CA-4A92-9DEF-29F835C94E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2715D7-26CA-4A92-9DEF-29F835C94E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2715D7-26CA-4A92-9DEF-29F835C94E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2715D7-26CA-4A92-9DEF-29F835C94E89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,5 +41,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{59DFBABF-E7DE-4363-AEAC-2DCC39B9E33D} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
 		{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
+		{7D2715D7-26CA-4A92-9DEF-29F835C94E89} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
 	EndGlobalSection
 EndGlobal

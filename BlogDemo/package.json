@@ -1,0 +1,22 @@
+{
+	"name": "BlogDemo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack"
+	},
+	"babel": {
+		"presets": [ "es2015" ]
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-core": "^6.24.1",
+		"babel-loader": "^7.0.0",
+		"babel-polyfill": "^6.23.0",
+		"babel-preset-es2015": "^6.24.1",
+		"webpack": "^2.5.1"
+	}
+}
