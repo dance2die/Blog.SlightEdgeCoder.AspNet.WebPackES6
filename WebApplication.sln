@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91EDD3C7-47D3-489C-B60C-C8378F397DA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F383F702-CFA9-4F94-941A-685DB933EA4C}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebApplication", "src\WebApplication\WebApplication.xproj", "{59DFBABF-E7DE-4363-AEAC-2DCC39B9E33D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "src\WebApplication\WebApplication.csproj", "{59DFBABF-E7DE-4363-AEAC-2DCC39B9E33D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc5", "AspNetMvc5\AspNetMvc5.csproj", "{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC}"
 EndProject
@@ -42,5 +39,8 @@ Global
 		{59DFBABF-E7DE-4363-AEAC-2DCC39B9E33D} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
 		{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
 		{7D2715D7-26CA-4A92-9DEF-29F835C94E89} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {095B5506-BA56-42EB-BE70-247C5EE0200D}
 	EndGlobalSection
 EndGlobal

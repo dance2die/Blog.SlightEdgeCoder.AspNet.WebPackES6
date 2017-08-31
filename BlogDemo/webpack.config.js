@@ -1,4 +1,5 @@
 ﻿const path = require('path');
+const webpack = require('webpack');
 
 module.exports = {
 	entry: ['./Scripts/es6/main.js'],
@@ -14,5 +15,10 @@ module.exports = {
 				exclude: /node_modules/
 			}
 		]
-	}
+	},
+	plugins: [
+		new webpack.ProvidePlugin({
+			Promise: 'es6-promise-promise'
+		})
+	]
 }
