@@ -17,18 +17,31 @@ export default class Person {
 		console.log(`Hi I'm ${this.name} and ${this.age} years old and I am awesome`);
 	}
 
+	msgAfterTimeout(msg, who, timeout) {
+		return new Promise((resolve, reject) => {
+			setTimeout(() => resolve(`${msg} Hello ${who}!`), timeout);
+		});
+	}
+
 	printData() {
-		// Which ever Promise fulfills first is the result passed to our handler
-		Promise.race([
-			fetch('https://jsonplaceholder.typicode.com/users/1'),
-				delay(5000).then(() => { username: "we don't know!" })
-			])
-			.then(function (response) {
-				// this will be 'guest' if fetch takes longer than 5 sec.
-				console.log("user:", response.json());
-			})
-			.catch(function (err) {
-				console.log("error:", err);
-			});
+		this.msgAfterTimeout("", "Foo", 100).then((msg) =>
+			this.msgAfterTimeout(msg, "Bar", 200)).then((msg) => {
+			console.log(`done after 300ms:${msg}`);
+		});
+
+		//// Which ever Promise fulfills first is the result passed to our handler
+		//Promise.race([
+		//	fetch('https://jsonplaceholder.typicode.com/users/1'),
+		//		delay(5000).then(() => { username: "we don't know!" })
+		//	])
+		//	.then(function (response) {
+		//		// this will be 'guest' if fetch takes longer than 5 sec.
+		//		console.log("user:", response.json());
+		//	})
+		//	.catch(function (err) {
+		//		console.log("error:", err);
+		//	});
+
+
 	}
 }
