@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{91EDD3C7-47D3-489C-B60C-C8378F397DA8}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc5", "AspNetMvc5\AspNetMvc5.csproj", "{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDemo", "BlogDemo\BlogDemo.csproj", "{7D2715D7-26CA-4A92-9DEF-29F835C94E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvc5_BabelPresetEnv", "AspNetMvc5_BabelPresetEnv\AspNetMvc5_BabelPresetEnv.csproj", "{B13C2870-E26F-4C30-A0F1-915C8C5DF0E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{7D2715D7-26CA-4A92-9DEF-29F835C94E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D2715D7-26CA-4A92-9DEF-29F835C94E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D2715D7-26CA-4A92-9DEF-29F835C94E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B13C2870-E26F-4C30-A0F1-915C8C5DF0E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B13C2870-E26F-4C30-A0F1-915C8C5DF0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B13C2870-E26F-4C30-A0F1-915C8C5DF0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B13C2870-E26F-4C30-A0F1-915C8C5DF0E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{59DFBABF-E7DE-4363-AEAC-2DCC39B9E33D} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
 		{FFE94819-FE33-4C08-9C8B-0BC9011D5CBC} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
 		{7D2715D7-26CA-4A92-9DEF-29F835C94E89} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
+		{B13C2870-E26F-4C30-A0F1-915C8C5DF0E2} = {91EDD3C7-47D3-489C-B60C-C8378F397DA8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {095B5506-BA56-42EB-BE70-247C5EE0200D}
