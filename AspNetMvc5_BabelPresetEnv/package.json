@@ -1,0 +1,20 @@
+{
+	"name": "AspNetMvc5_BabelPresetEnv",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.2",
+		"babel-polyfill": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"npm-watch": "^0.3.0",
+		"webpack": "^3.10.0"
+	}
+}
