@@ -119,7 +119,6 @@
     <Content Include="Views\web.config" />
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
-    <Content Include=".babelrc" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
