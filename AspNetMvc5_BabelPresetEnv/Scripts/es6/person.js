@@ -7,7 +7,7 @@ export default class Person {
 	}
 
 	speak() {
-		console.log(`Hi I'm ${this.name} and ${this.age} years old and I am awesome`);
+		console.log(`Hi I'm ${this.name} and ${this.age} years old and I love CodingBlocks podcast!`);
 	}
 
 	msgAfterTimeout(msg, who, timeout) {
@@ -19,7 +19,7 @@ export default class Person {
 	printData() {
 		this.msgAfterTimeout("", "Foo", 100).then((msg) =>
 			this.msgAfterTimeout(msg, "Bar", 2000)).then((msg) => {
-				console.log(`done after 2000ms:${msg}`);
+				console.log(`done after 2100ms:${msg}`);
 		});
 
 		//// Which ever Promise fulfills first is the result passed to our handler

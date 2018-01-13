@@ -3,10 +3,18 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
+	"watch": {
+		"build": "Scripts/es6/*.js"
+	},
 	"scripts": {
+		"watch": "npm-watch",
 		"build": "webpack"
 	},
-	"babel": { "presets": [ "env" ] },
+	"babel": {
+		"presets": [
+			"env"
+		]
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
